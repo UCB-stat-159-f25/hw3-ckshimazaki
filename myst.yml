@@ -16,8 +16,9 @@ site:
         url: https://mybinder.org
         repo: UCB-stat-159-f25/hw3-ckshimazaki
         branch: main
-  nav:
-    - title: "Home"
-      url: README.md
-    - title: "LIGO Tutorial"
-      url: LOSC_Event_tutorial.ipynb
+
+toc:
+  - file: README.md
+    title: "Home"
+  - file: LOSC_Event_tutorial.ipynb
+    title: "LIGO Tutorial"
