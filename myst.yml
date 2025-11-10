@@ -18,6 +18,6 @@ site:
         branch: main
   nav:
     - title: "Home"
-      url: ./README.md
+      url: README.md
     - title: "LIGO Tutorial"
-      url: ./LOSC_Event_tutorial.ipynb
+      url: LOSC_Event_tutorial.ipynb
