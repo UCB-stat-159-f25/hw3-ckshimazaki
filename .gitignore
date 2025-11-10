@@ -4,13 +4,16 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
-
 # OS cruft
 .DS_Store
 
 # Generated notebook outputs (figures and audio are reproducible)
-figures/
-audio/
+figures/*
+!figures/.gitkeep
+
+audio/*
+!audio/.gitkeep
+
 
 # MyST build artifacts
 _build/
@@ -22,3 +25,5 @@ build/
 
 # MyST build outputs
 _build
+# pytest cache
+.pytest_cache/

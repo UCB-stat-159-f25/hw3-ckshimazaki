@@ -2,3 +2,6 @@
 
 [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-ckshimazaki/HEAD)
 
+This assignment refactors the LIGO Gravitational Wave Detection tutorial into a reproducible research package.  
+It features modularized code, testing, and documentation, and builds an interactive MyST website deployed via GitHub Pages.
+
