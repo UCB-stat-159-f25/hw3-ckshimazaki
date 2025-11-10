@@ -1,26 +1,24 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+
 project:
   id: c3f3c07c-b7ce-4e25-b30e-0393d5f2affa
   title: "LIGO Homework 3 – Claire Kaoru Shimazaki"
   description: "Modified LIGO GW tutorial for Stat 159 HW 3"
   authors: "LIGO Scientific Collaboration (LSC) and Claire Kaoru Shimazaki"
   github: https://github.com/UCB-stat-159-f25/hw3-ckshimazaki
+  launch:
+    binder:
+      url: https://mybinder.org
+      repo: UCB-stat-159-f25/hw3-ckshimazaki
+      branch: main
 
 site:
   template: book-theme
   options:
-    favicon: favicon.ico
-    logo: site_logo.png
     toc_depth: 2
   nav:
     - title: "Home"
-      url: README.md
+      url: ./README.md
     - title: "LIGO Tutorial"
-      url: LOSC_Event_tutorial.ipynb
-
-launch:
-  binder:
-    url: https://mybinder.org
-    repo: UCB-stat-159-f25/hw3-ckshimazaki
-    branch: main
+      url: ./LOSC_Event_tutorial.ipynb
