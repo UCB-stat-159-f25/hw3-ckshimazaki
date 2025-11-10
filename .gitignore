@@ -19,3 +19,6 @@ _build/
 *.egg-info/
 dist/
 build/
+
+# MyST build outputs
+_build
